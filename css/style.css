@@ -1,0 +1,60 @@
+html,body{
+    height:100%;
+    margin:0;
+    padding:0
+}
+
+.container-fluid{
+    height:100%;
+    width:100%;
+    display:table;
+    padding:0;
+    background-image:url("https://cdn.rawgit.com/mnjalale/MediaFiles/master/clearsky.jpg");
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.row-fluid{
+    height:100%;
+    display:table-cell;
+    padding-top:30px;
+}
+
+.centering{
+    float:none;
+    margin: 0 auto;
+    width:600px;
+    //background-color:grey;
+}
+
+.icon{
+    margin-left:2%;
+    float:left;
+}
+
+.temperatureText{
+    font-size:40px;
+}
+
+.inactive-link{
+    color: black;
+    pointer-events: none;
+    cursor: default;
+}
+
+span{
+    font-size:20px;
+}
+
+a,a:link,a:hover{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a.inactive-link:hover,a:active{
+    text-decoration: none;
+    color: black;
+}
